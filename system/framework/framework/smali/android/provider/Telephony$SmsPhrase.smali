@@ -1,0 +1,35 @@
+.class public final Landroid/provider/Telephony$SmsPhrase;
+.super Ljava/lang/Object;
+.source "Telephony.java"
+
+# interfaces
+.implements Landroid/provider/BaseColumns;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/provider/Telephony;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "SmsPhrase"
+.end annotation
+
+
+# static fields
+.field public static final CONTENT_ITEM_TYPE:Ljava/lang/String; = "vnd.android.cursor.item/smsphrase"
+
+.field public static final CONTENT_TYPE:Ljava/lang/String; = "vnd.android.cursor.dir/smsphrase"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 1815
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
