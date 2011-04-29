@@ -1690,6 +1690,10 @@
     return-void
 
     .line 481
+    nop
+
+    nop
+
     :sswitch_data_0
     .sparse-switch
         0x81 -> :sswitch_1
@@ -2809,7 +2813,7 @@
 
     .line 789
     :try_start_6
-    throw v5
+    invoke-virtual {v5}, Ljava/io/InputStream;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_2
 
